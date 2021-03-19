@@ -21,12 +21,12 @@ body {
 }
 
 .my-btn-main {
-    background-color: #f4dee0;
-    border-color: #f4dee0;
+    background-color: #93837e;
+    border-color: #93837e;
     color: black;
 }
 .my-btn-main:hover{
-    background-color: rgb(250,232,232, 0.8);
+    background-color: rgb(147,131,126, 0.8);
 }
 
 .text-logo {
@@ -50,7 +50,7 @@ body {
     -webkit-text-stroke: 0.2px black;
 }
 .main-big-title h1 {
-    color: #f4dee0;
+    color: #93837e;
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -58,7 +58,7 @@ body {
     text-transform: uppercase;
     padding-bottom: 15px;
     position: relative;
-    -webkit-text-stroke: 0.2px #f4dee0;
+    -webkit-text-stroke: 0.2px #93837e;
 }
 
 .main-big-title h6 {
