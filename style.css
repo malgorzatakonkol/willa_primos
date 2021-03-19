@@ -1,5 +1,6 @@
 @import url("carousel.css");
 @import url("helpers.css");
+@import url("navbar.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
@@ -19,35 +20,19 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.my-btn-main {
+    background-color: #f4dee0;
+    border-color: #f4dee0;
+    color: black;
+}
+.my-btn-main:hover{
+    background-color: rgb(250,232,232, 0.8);
+}
+
 .text-logo {
     font-family: "Dancing Script", cursive;
     color: black;
 }
-
-.my-nav-mobile {
-    width: 100%;
-    top:0;
-    z-index:10;
-    float: left;
-    margin:0;
-    overflow:hidden;
-    background-color: #e6e6e6;
-}
-
-/* .my-nav-mobile .text-logo {
-    font-size: 65px;
-} */
-
-.my-nav-mobile-font {
-    color: rgba(0,0,0,.5);
-    -webkit-text-stroke: 0.2px rgba(0,0,0,.5);
-    font-size: 16px;
-}
-
-.my-nav-item {
-    border-bottom: 1px solid rgba(0,0,0,.3);
-}
-
 .my-section-jumbotron{
     position: relative;
     overflow: hidden;
@@ -65,7 +50,7 @@ body {
     -webkit-text-stroke: 0.2px black;
 }
 .main-big-title h1 {
-    color: #ffb606;
+    color: #f4dee0;
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -73,7 +58,7 @@ body {
     text-transform: uppercase;
     padding-bottom: 15px;
     position: relative;
-    -webkit-text-stroke: 0.2px #ffb606;
+    -webkit-text-stroke: 0.2px #f4dee0;
 }
 
 .main-big-title h6 {

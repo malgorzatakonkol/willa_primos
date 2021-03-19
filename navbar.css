@@ -1,0 +1,32 @@
+.my-nav-mobile {
+    width: 100%;
+    top:0;
+    z-index:10;
+    float: left;
+    margin:0;
+    overflow:hidden;
+    background-color: #ffffff;
+}
+
+.my-nav-mobile .navar-brand {
+    display: contents;
+}
+
+/* .my-nav-mobile .text-logo {
+    font-size: 65px;
+} */
+
+.my-nav-mobile-font {
+    color: rgba(0,0,0,.5);
+    -webkit-text-stroke: 0.2px rgba(0,0,0,.5);
+    font-size: 16px;
+}
+
+.my-nav-item {
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+.my-nav-logo {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+}
