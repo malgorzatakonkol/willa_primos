@@ -1,20 +1,13 @@
 
 
-.carousel-ban-text-adj{
+.carousel-ban-text-adj {
     position: absolute;
-    width: 800px;
     display: flex;
-    /* margin-left: 18px; */
-    /* bottom: 180px; */
-    /* background-color: #000000a8; */
     background-color: rgb(0,0,0, 0.4);
     border-radius: 12px;
     padding: 8px;
 }
 .carousel-header-adj{
-    /* margin: 0; */
-    /* vertical-align: top; */
-    /* padding-left: 0px; */
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 30px;
@@ -22,7 +15,7 @@
 }
 .carousel-header-adj:before {
     content: "";
-    width: 95px;
+    width: 65px;
     height: 1px;
     background: #fff;
     position: absolute;
@@ -32,7 +25,7 @@
 }
 .carousel-header-adj:after{
     content: "";
-    width: 95px;
+    width: 65px;
     height: 1px;
     background: #fff;
     position: absolute;
@@ -40,18 +33,33 @@
     bottom: 14px;
     z-index: 22;
 }
-
-.carousel-paragraph{
-    /* margin-left: 0; */
+@media (min-width: 1024px) {
+    .carousel-ban-text-adj {
+        width: 800px;
+    }
+    .carousel-header-adj:before {
+        width: 95px;
+    }
+    .carousel-header-adj:after {
+        width: 95px;
+    }
+} 
+.carousel-paragraph {
     margin-top: 15px;
     margin-bottom: 15px;
-    /* padding-left: 0;   */
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
     font-size: 45px;
     -webkit-text-stroke: 0.2px white;
+    text-transform: none;
+}
+
+@media (min-width: 1025px) {
+    .carousel-paragraph {
+        text-transform: uppercase;
+    }
 }
 .carousel-img-fit{
     min-width: 980px;
@@ -60,7 +68,6 @@
     object-position: 50% 50%;
 }
 .carousel-banner{
-    /* max-height: 930px !important; */
     min-height: 500px;
 }
 
@@ -69,7 +76,7 @@
         max-height: 400px;
     }
     .carousel-paragraph{
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 300;
     }
 }
@@ -80,7 +87,7 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .carousel-banner {
         max-height: 930px;
     }
