@@ -83,4 +83,63 @@ body {
     -webkit-text-stroke: 0.2px #898989;
     padding-top: 25px;
 }
+/* Pokoje */
+.card-body {
+    min-height: 300px;
+}
+.card figure {
+    background: black;
+}
+.card figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: .25rem;
+}
+.card figure:hover img {
+	opacity: .7;
+    border-radius: .25rem;
+}
 
+.card-body h4 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .60px;
+    color: #242424;
+    text-transform: uppercase;
+    transition: all 300ms linear 0s;
+}
+.card-body h4:hover {
+    color: #93837e;
+}
+.card-body p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: .225px;
+    line-height: 26px;
+    color: #898989;
+    -webkit-text-stroke: 0.2px #898989;
+    padding-top: 25px;
+}
+.my-card-footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 35px;
+    bottom: 22px;
+    justify-content: space-between;
+}
+.my-card-footer h3 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #242424;
+    /* letter-spacing: .60px; */
+    padding-top: 10px;
+}
+.my-card-footer h3 span {
+    color: #a0a0a0;
+    font-size: 14px;
+}
