@@ -14,14 +14,23 @@
 .border-bottom-light {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.link-wrap {
-    white-space: pre-wrap; /* CSS3 */    
-    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */    
-    white-space: -o-pre-wrap; /* Opera 7 */    
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
+.border-top-light {
+    border-top: 1px solid rgba(0,0,0,.1);
 }
+/* .link-wrap {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;   
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+} */
 .font-white {
     color: white;
     -webkit-text-stroke: 0.2px white;
+}
+.img-width-300 {
+    width: 300px;
+}
+.font-size-xxs {
+    font-size: 10px;
 }

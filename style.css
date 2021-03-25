@@ -71,6 +71,38 @@ body {
     color: #898989;
     -webkit-text-stroke: 0.2px #898989;
 }
+.scrollTop{
+    z-index: 5;
+    position: fixed;
+    opacity: 0;
+    background: #d3cac7;;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    width: 2%;
+    height: 2%;
+    margin: 0 auto;
+    bottom: 20px;
+    right: 1.7%;
+    border-radius: 50%;
+}
+.scrollTop:hover{
+    background: #93837e;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.scrollTop-arrow{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -32%;
+    margin-left: -19%;
+}
 /* Pokoje */
 .card-body {
     min-height: 300px;
@@ -139,7 +171,7 @@ body {
     position: relative;
     z-index: 3;
     padding: 100px 0px;
-}
+}  
 .paral h1 {
     color: white;
     font-family: "Montserrat", sans-serif;
