@@ -34,3 +34,15 @@
 .font-size-xxs {
     font-size: 10px;
 }
+.font-os-i-300 {
+    font-family: "Open-Sans-italic-300", sans-serif;
+}
+.font-os-300 {
+    font-family: "Open-Sans-300", sans-serif;
+}
+.font-os-700 {
+    font-family: "Open-Sans-700", sans-serif;
+}
+.font-mon-500 {
+    font-family: "Montserrat-500", sans-serif;
+}
