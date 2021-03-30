@@ -164,3 +164,29 @@ a{
 .tile_3{
     z-index: 12;
 }
+.carousel-room-big {
+    padding-top: 80px;
+}
+.carousel-room-big .carousel-item {
+    width: auto;
+    height: 700;
+}
+.carousel-room-big .carousel-inner {
+    background-color: #dfe0e1;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-room-big .carousel-item img {
+    height: 700px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .carousel-room-big .carousel-item img {
+        height: 200px;
+    }
+    .carousel-room-big .carousel-item {
+        height: 200px;
+    }
+}
