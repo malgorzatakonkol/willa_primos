@@ -59,12 +59,15 @@ body {
 
 .main-describe {
     font-size: 15px;
-    /* font-family: "Open-Sans-300", sans-serif; */
+    text-align: justify;
     letter-spacing: .225px;
     line-height: 26px;
-    color: #898989;
-    -webkit-text-stroke: 0.2px #898989;
+    /* color: #898989;
+    -webkit-text-stroke: 0.2px #898989; */
+    color: #000;
+    -webkit-text-stroke: 0.2px #000;
 }
+
 .scrollTop{
     z-index: 5;
     position: fixed;
@@ -99,7 +102,8 @@ body {
 }
 /* Pokoje */
 .card-body {
-    min-height: 300px;
+    /* min-height: 300px; */
+    min-height: 150px;
 }
 .card figure {
     background: black;
@@ -114,7 +118,6 @@ body {
 	opacity: .7;
     border-radius: .25rem;
 }
-
 .card-body h4 {
     font-size: 20px;
     font-family: "Montserrat-700", sans-serif;
@@ -154,6 +157,16 @@ body {
     color: #a0a0a0;
     font-size: 14px;
 }
+.table-price {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.table-price tr td {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
 /* opinie */
 
 .paral {
@@ -223,4 +236,22 @@ body {
     font-family: "Montserrat-700", sans-serif;
     letter-spacing: .60px;
     color: #242424;
+}
+.test {
+    background: #003580;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: baseline;
+    border-radius: 5.81818px 5.81818px 5.81818px 0;
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
 }
