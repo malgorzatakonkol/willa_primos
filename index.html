@@ -378,7 +378,7 @@
           <div>
             <i class="fas fa-thumbs-up mr-2"></i> 
             <div class="d-flex justify-content-center align-items-center mb-3">
-              <div class="test mr-2 mr-md-3">9,3</div> 
+              <div class="mr-2 mr-md-3">9,3</div> 
               <p class="font-white font-mon-500 mb-0">Znakomity na podstawie 75 opinii</p>
             </div>
             <img class="paral-logo px-1" src="images/booking_logo.png" alt="Boocking.com logo">
@@ -464,26 +464,26 @@
             <div class="row align-items-center mt-4">
                 <div class="col-sm-12 col-lg-5">
                     <div>
-                      <form>
+                      <form action="guestForm.php" method="POST">
                         <div class="form-group">
-                          <label for="exampleGuestName" class="main-describe font-os-300">Imię i nazwisko</label>
-                          <input class="form-control" type="text" id="exampleGuestName">
+                          <label for="guestName" class="main-describe font-os-300">Imię i nazwisko</label>
+                          <input class="form-control" type="text" name="guestName" id="guestName">
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputEmail1" class="main-describe font-os-300">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <label for="guestEmail1" class="main-describe font-os-300">Email</label>
+                          <input type="email" name="guestEmail1" class="form-control" id="guesttEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputPhone" class="main-describe font-os-300">Telefon kontaktowy</label>
-                          <input class="form-control" type="text" id="exampleInputPhone">
+                          <label for="guestPhone" class="main-describe font-os-300">Telefon kontaktowy</label>
+                          <input class="form-control" name="guestPhone" type="tel" id="guestPhone">
                         </div>
                         <div class="form-group">
-                          <label for="exampleMessageTitle" class="main-describe font-os-300">Temat wiadomości</label>
-                          <input class="form-control" type="text" id="exampleMessageTitle">
+                          <label for="guestMessageTitle" class="main-describe font-os-300">Temat wiadomości</label>
+                          <input class="form-control" name="guestMessageTitle" type="text" id="guestMessageTitle">
                         </div>
                         <div class="form-group">
-                          <label for="exampleMessageContent" class="main-describe font-os-300">Treść wiadomości</label>
-                          <textarea class="form-control" id="exampleMessageContent" rows="3"></textarea>
+                          <label for="guestMessageContent" class="main-describe font-os-300">Treść wiadomości</label>
+                          <textarea class="form-control" id="guestMessageContent" name="guestMessageContent" rows="3"></textarea>
                         </div>
                         <div class="d-flex justify-content-center">
                           <button type="submit" class="btn my-btn-main text-uppercase">Wyślij</button>
